@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Paste a Refresh Token to return a list of Companies from the Entities API...</p>
+    <form method="post">
+        Refresh Token:  <input name="reftoken" type="text"> <br /> <br />
+        <button asp-controller="EntitiesAPI" asp-action="Refresh">Refresh Companies</button>
+    </form>
+</div>

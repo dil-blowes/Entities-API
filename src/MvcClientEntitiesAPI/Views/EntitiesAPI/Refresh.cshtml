@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Refresh Companies";
+}
+
+<h2>Refresh Companies</h2>
+<br>
+<br>
+<b>Refresh Token entered:</b> @ViewData["RefToken"]
+<br>
+<br>
+<b>Access Token exchanged:</b> @ViewData["AccessToken"]
+<br>
+<br>
+<b>Copy new Refresh Token to re-test at Home:</b> @ViewData["NewRefToken"]
+<br>
+<br>
+<b>Payload:</b> @ViewData["ApiPayload"]
+<br>
+<br>
+<b>Summary:</b> @Html.Raw(ViewData["ApiSummary"])
+<br>
+<br>
+<b>Response:</b> @ViewData["ApiResponse"]

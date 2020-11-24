@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ClientEntitiesAPI": {
+      "commandName": "Project",
+      "commandLineArgs": "--RefreshToken 3fca97b10915da69f97665ddc8e1e5f5fc9b086b3e7390bd7c36ff87a0139c1a"
+    }
+  }
+}
